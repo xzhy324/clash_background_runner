@@ -6,6 +6,14 @@ Make the clash client run quietly and will not be interrupted by terminal exits.
 
 ## prerequisite
 
+### 1. wget
+
+```bash
+whereis wget # check for existence
+```
+
+### 2. edit ./update_subscribes.sh
+
 set the link in `./update_subscribes` to the one your subscribe to.
 
 a possible `./update_subscribes` may look like:
