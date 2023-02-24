@@ -21,7 +21,7 @@ a possible `./update_subscribes` may look like:
 ```bash
 #!/bin/bash
 # set variable below to your subscribe link for clashx
-subscribe="https://clash.provider.com/link/abcd123?clash=1"
+subscribe=https://your.clash.subsribe_links.here/
 ...
 ```
 
@@ -33,7 +33,7 @@ to download and initialize clashx, run
 
 ```bash
 chmod +x ./setup_clash
-./setup_clash
+./setup_clash https://your.clash.subsribe_links.here/
 ```
 
 to update servers from the link you subscribe to,  run
