@@ -4,21 +4,23 @@ A script to automatically download and run `clash` in background for either GUI 
 
 Make the clash client run quietly and will not be interrupted by terminal exits.
 
-## prerequisite
+## SETUP
 
-### 1. wget
+### Way1 [recommended]
 
+run 
 ```bash
-whereis wget # check for existence
+./setup_clash.sh https://your.clash.subsribe_links.here/
 ```
 
-### 2. edit ./update_subscribes.sh
+### Way2
 
-set the link in `./update_subscribes` to the one your subscribe to.
+1. set the link in `./update_subscribes` to the one your subscribe to.
+2. run `./setup_clash.sh` WITHOUT args.
 
 a possible `./update_subscribes` may look like:
 
-```bash
+```sh
 #!/bin/bash
 # set variable below to your subscribe link for clashx
 subscribe=https://your.clash.subsribe_links.here/
@@ -27,7 +29,7 @@ subscribe=https://your.clash.subsribe_links.here/
 
 
 
-## usage
+## USAGE
 
 to download and initialize clashx, run
 
